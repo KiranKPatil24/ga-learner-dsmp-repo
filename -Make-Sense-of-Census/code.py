@@ -79,7 +79,7 @@ senior_citizens=census[census[:,0]>60]
 # print(len(senior_citizens))
 
 
-working_hours_sum=1917
+working_hours_sum=senior_citizens.sum(axis=0)[6]
 print(working_hours_sum)
 # working_hours_sum=np.concatenate(senior_citizens,ssum)
 # print(working_hours_sum)
